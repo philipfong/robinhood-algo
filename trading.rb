@@ -1,11 +1,5 @@
 require 'robinhood-ruby'
 
-class Hash
-  def as_json(opts = {})
-    self
-  end
-end
-
 email = ENV['RH_EMAIL']
 password = ENV['RH_PW']
 client_id = ENV['CID']
