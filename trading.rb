@@ -1,4 +1,5 @@
 require 'robinhood-ruby'
+require './helpers'
 
 email = ENV['RH_EMAIL']
 password = ENV['RH_PW']
