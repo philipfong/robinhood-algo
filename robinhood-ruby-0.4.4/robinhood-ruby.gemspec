@@ -39,7 +39,7 @@ Gem::Specification.new do |spec|
   # Workaround for RBX <= 2.2.1, should be fixed in next version
   spec.add_dependency("rubysl") if defined?(RUBY_ENGINE) && RUBY_ENGINE == "rbx"
 
-  spec.add_development_dependency "bundler", "~> 1.13"
+  spec.add_development_dependency "bundler", "~> 2.0.1"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-nc"
